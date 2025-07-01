@@ -1,0 +1,25 @@
+<mat-toolbar class="toolbar-content">
+  <mat-toolbar-row class="row">
+    <div><mat-icon>menu</mat-icon></div>
+    <div><span>Welcome</span></div>
+    <span class="example-spacer"></span>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row class="row" (click)="clickOnMap()">
+    <div><mat-icon>map</mat-icon></div>
+    <div><span>Map</span></div>
+    <span class="example-spacer"></span>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row class="row" (click)="clickOnPeople()">
+    <div><mat-icon>people</mat-icon></div>
+    <div><span>Users</span></div>
+    <span class="example-spacer"></span>
+  </mat-toolbar-row>
+
+  <mat-toolbar-row class="row" (click)="clickOnDescription()">
+    <div><mat-icon>description</mat-icon></div>
+    <div><span>Docs</span></div>
+    <span class="example-spacer"></span>
+  </mat-toolbar-row>
+</mat-toolbar>
